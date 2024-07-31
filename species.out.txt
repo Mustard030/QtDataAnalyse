@@ -1,0 +1,2001 @@
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+1900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+2900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+3900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+4900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+5900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+6900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+7900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+8900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+9900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+10900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+11900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+12900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+13900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+14900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+15900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+16900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+17900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+18900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+19900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+20900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+21900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+22900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+23900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+24900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+25900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+26900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+27900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+28900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+29900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+30900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+31900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+32900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+33900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+34900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+35900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+36900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+37900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+38900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+39900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+40900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+41900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+42900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+43900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+44900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+45900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+46900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+47900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C12H5O2	O2	
+48500         14          3	 4	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+48900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+49900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+50900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+51900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+52900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+53900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+54900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+55900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+56900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+57900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+58900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+59900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+60900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+61900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+62900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+63900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+64900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+65900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+66900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+67900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+68900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+69900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+70900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+71900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+72900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+73900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+74900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+75900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+76900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+77900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C12H5O2	O2	
+78700         14          3	 4	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+78900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C5H2	C7H3	C12H5	O2	
+79200         16          4	 1	 1	 4	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+79900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+80900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+81900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82000         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82100         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82200         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82300         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82400         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82500         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82600         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82700         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82800         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	O2	
+82900         15          2	 5	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83000         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83100         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83200         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83300         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83400         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83500         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83600         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83700         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83800         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+83900         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84000         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84100         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84200         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4O2	O2	
+84300         15          4	 4	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4O2	O2	
+84400         15          4	 4	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4O2	O2	
+84500         15          4	 4	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84600         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84700         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84800         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+84900         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+85000         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+85100         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+85200         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	O2	
+85300         16          4	 4	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C11H5	C	O2	
+85400         17          6	 3	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C11H5	C	O2	
+85500         17          6	 3	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C11H5	C	O2	
+85600         17          6	 3	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+85700         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+85800         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+85900         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86000         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86100         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86200         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86300         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86400         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86500         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86600         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86700         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86800         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+86900         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87000         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87100         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87200         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87300         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87400         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87500         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87600         18          7	 3	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C7H3	O2	
+87700         19          7	 2	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C8H3	C8H4	O2	
+87800         19          8	 2	 2	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+87900         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88000         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88100         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88200         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88300         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88400         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88500         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88600         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C12H5O2	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88700         19         10	 1	 1	 2	 1	 1	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88800         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+88900         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89000         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89100         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89200         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89300         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89400         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89500         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89600         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89700         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89800         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+89900         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C7H3	C5H2	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90000         21         11	 1	 1	 1	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90100         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90200         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90300         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90400         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90500         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90600         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2O2	C	C6H3	C2	C8H4	O2	
+90700         19          9	 2	 2	 1	 1	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90800         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C6H3	C2	C8H4	O2	
+90900         20          9	 2	 2	 1	 1	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91000         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91100         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91200         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91300         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91400         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91500         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91600         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91700         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91800         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+91900         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92000         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92100         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92200         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92300         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92400         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92500         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3HO2	C9H4	C4H2	C	C4H3	C2	C8H4	C3H	O2	
+92600         20         10	 2	 1	 1	 1	 1	 1	 2	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3HO2	C9H4	C4H2	C	C4H3	C2	C8H4	C3H	O2	
+92700         20         10	 2	 1	 1	 1	 1	 1	 2	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92800         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+92900         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93000         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93100         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93200         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93300         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93400         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93500         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93600         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93700         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93800         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+93900         21          9	 2	 2	 1	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C5H2	C7H3	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94000         23         10	 1	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94100         22          9	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C12H5	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94200         22          9	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94300         23         10	 1	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94400         23         10	 1	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C9H4	C4H2	C	C4H3	C2	C8H4	O2	
+94500         23         10	 1	 1	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C9H4	C	C4H3	C2	C8H4	O2	
+94600         24         10	 1	 2	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C9H4	C	C4H3	C2	C8H4	O2	
+94700         24         10	 1	 2	 3	 2	 1	 1	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C5H2O2	C9H4	C	C3H3	C2	C8H4	O2	
+94800         24         11	 1	 1	 3	 2	 1	 1	 2	 1	 2	 1	 9	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C5H2O2	C9H4	C	C3H3	C2	C8H4	O2	
+94900         24         11	 1	 1	 3	 2	 1	 1	 2	 1	 2	 1	 9	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C5H2O2	C9H4	C	C3H3	C2	C8H4	O2	
+95000         24         11	 1	 1	 3	 2	 1	 1	 2	 1	 2	 1	 9	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C5H2O2	C9H4	C	C3H3	C2	C8H4	O2	
+95100         24         11	 1	 1	 3	 2	 1	 1	 2	 1	 2	 1	 9	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C9H4	C	C3H3	C2	C8H4	O2	
+95200         25         10	 1	 2	 3	 2	 1	 2	 1	 2	 1	 10	
+# Timestep     No_Moles     No_Specs     C7H3	C5H2	C3H	C4H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95300         26         11	 1	 1	 3	 2	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95400         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95500         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95600         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95700         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95800         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+95900         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+96000         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C4H2	C5H2	C3H2	C2	C9H4	C	C3H3	C8H4	O2	
+96100         27         10	 4	 3	 1	 1	 3	 1	 2	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C5H2	C4H2	C3H2	C2	C9H4	C3H3	C	C8H4	O2	
+96200         26         10	 4	 2	 2	 1	 3	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96300         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96400         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96500         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96600         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96700         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96800         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+96900         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97000         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97100         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97200         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97300         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97400         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97500         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2O2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97600         26         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2O2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97700         26         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97800         27         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C3H	C3H2	C2	C5H2O2	C4H2	C9H4	C3H3	C	C8H4	O2	
+97900         26         10	 4	 2	 4	 1	 2	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98000         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98100         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98200         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98300         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98400         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98500         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98600         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98700         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98800         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+98900         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+99000         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2O2	C2	C5H2	C4H2	C3H2	C3H	C9H4	C3H3	C	C8H4	O2	
+99100         25         12	 1	 1	 4	 1	 2	 1	 2	 1	 1	 1	 1	 9	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+99200         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C5H2	C3H2	C2	C	C4H2	C3H	C9H4	C3H3	C8H4	O2	
+99300         27         10	 2	 2	 4	 2	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+99400         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C3H3	C	C8H4	O2	
+99500         26         11	 1	 2	 4	 1	 2	 2	 1	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C5H2	C3H2	C2	C	C4H2	C3H	C9H4	C4H3	C8H4	O2	
+99600         26         10	 2	 2	 4	 1	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C4H3	C8H4	O2	
+99700         25         10	 1	 2	 4	 1	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C4H3	C8H4	O2	
+99800         25         10	 1	 2	 4	 1	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C2	C5H2	C4H2	C3H	C9H4	C4H3	C8H4	O2	
+99900         25         10	 1	 2	 4	 1	 2	 2	 1	 1	 1	 10	
+# Timestep     No_Moles     No_Specs     C6H2	C3H2	C43	C5H2	C30H62	C13H28	C9H4	C4H3	CO2	O2	CO	H2O     	
+100000         25         12	 1	 2	 4	 3	 2	 2	 1	 3	 2	 2	1	2	
+
