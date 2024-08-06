@@ -1,14 +1,13 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 import re
-import data_process
+import data
 
 # data_source = input("数据文件路径：")
 data_source = r"C:\Users\Administrator\Downloads\species.out.txt"
 if data_source.startswith('"') and data_source.endswith('"'):
     data_source = data_source[1:-1]
 
-df = data_process.read_file(data_source)
+df = data.read_file(data_source)
 
 
 # ################################ df数据构造完成 ################################

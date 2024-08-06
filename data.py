@@ -1,3 +1,5 @@
+from typing import List
+
 import pandas as pd
 
 
@@ -28,3 +30,13 @@ def read_file(data_source: str) -> pd.DataFrame:
     df = df.apply(pd.to_numeric).fillna(0)
     df['Timestep'] = df['Timestep'] / 1000
     return df
+
+
+class PointData:
+    pass
+
+
+class LineData:
+    def __init__(self):
+        self.x: List[str | int] = list()
+        self.y: List[PointData] = list()

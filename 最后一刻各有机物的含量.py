@@ -6,8 +6,8 @@ import re
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用黑体显示中文
 plt.rcParams['axes.unicode_minus'] = False   # 正常显示负号
 
-data_source = input("数据文件路径：")
-# data_source = r"C:\Users\Administrator\Downloads\species.out.txt"
+# data_source = input("数据文件路径：")
+data_source = r"species.out.txt"
 if data_source.startswith('"') and data_source.endswith('"'):
     data_source = data_source[1:-1]
 
