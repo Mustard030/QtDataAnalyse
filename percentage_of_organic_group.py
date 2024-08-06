@@ -135,10 +135,10 @@ plt.figure(figsize=(12, 6))
 # plt.plot(timestamps, C14_C40_counts, label='C14-C40')
 # plt.plot(timestamps, C40p_counts, label='C40+')
 
-plt.plot(timestamps, df['C1_C4_percentages'], label='C1_C4 Percentage')
-plt.plot(timestamps, df['C5_C13_percentages'], label='C5_C13 Percentage')
-plt.plot(timestamps, df['C14_C40_percentages'], label='C14_C40 Percentage')
-plt.plot(timestamps, df['C40p_percentages'], label='C40+ Percentage')
+plt.plot(timestamps, df['C1_C4_percentages'], label='C1-C4')
+plt.plot(timestamps, df['C5_C13_percentages'], label='C5-C13')
+plt.plot(timestamps, df['C14_C40_percentages'], label='C14-C40')
+plt.plot(timestamps, df['C40p_percentages'], label='C40+')
 
 # 绘制参数
 plt.xlabel('Timestep')  # X轴标签

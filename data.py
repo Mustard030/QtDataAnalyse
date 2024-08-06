@@ -1,3 +1,4 @@
+import re
 from typing import List
 
 import pandas as pd
@@ -32,11 +33,97 @@ def read_file(data_source: str) -> pd.DataFrame:
     return df
 
 
-class PointData:
-    pass
-
-
 class LineData:
-    def __init__(self):
+    def __init__(self, data: List, label: str):
+        self.data = data
+        self.label = label
+
+
+class TableData:
+    def __init__(self, file_path):
         self.x: List[str | int] = list()
-        self.y: List[PointData] = list()
+        self.y: List[LineData] = list()
+        self.df = read_file(file_path)
+
+        self.ignore_columns = ['Timestep', 'No_Moles', 'No_Specs']
+        self.timestamps = self.df['Timestep']
+
+        self.organic_columns = []
+        self.C1_C4_columns = []
+        self.C5_C13_columns = []
+        self.C14_C40_columns = []
+        self.C40p_columns = []
+        self.non_organic_columns = []
+
+        for col in self.df.columns:
+            if col in self.ignore_columns:  # 排除忽略列
+                continue
+
+            if 'C' in col and 'H' in col:  # 同时含C和H判定为有机物
+                self.organic_columns.append(col)
+                continue
+
+            res = re.search(r'C(\d+)', col)
+            if res and int(res.group(1)) >= 2:  # C后有数字且大于2判定为有机物
+                self.organic_columns.append(col)
+
+            elif not res or int(res.group(1)) < 2:
+                self.non_organic_columns.append(col)
+
+        for col in self.organic_columns:  # 有机物细分判断
+            res = re.search(r'C(\d+)', col)
+            if not res or int(res.group(1)) < 5:  # C1-C4
+                self.C1_C4_columns.append(col)
+            elif int(res.group(1)) < 14:  # C5-C13
+                self.C5_C13_columns.append(col)
+            elif int(res.group(1)) < 41:  # C14-C40
+                self.C14_C40_columns.append(col)
+            else:  # C40+
+                self.C40p_columns.append(col)
+
+        # 统计每个时间段的各有机物数量总和
+        self.df['Organic_Count'] = self.df[self.organic_columns].sum(axis=1)  # 有机物总数
+        self.df['Non_Organic_Count'] = self.df[self.non_organic_columns].sum(axis=1)  # 无机物总数
+        self.df['C1_C4_Count'] = self.df[self.C1_C4_columns].sum(axis=1)  # C1-C4总数
+        self.df['C5_C13_Count'] = self.df[self.C5_C13_columns].sum(axis=1)  # C5-C13总数
+        self.df['C14_C40_Count'] = self.df[self.C14_C40_columns].sum(axis=1)  # C14-C40总数
+        self.df['C40p_Count'] = self.df[self.C40p_columns].sum(axis=1)  # C40+总数
+
+    def organic_content(self):  # 有机物含量
+        for col in self.organic_columns:
+            self.df[col + '_percentages'] = self.df[col] / self.df['Organic_Count'] * 100
+            self.df[col + '_percentages'] = self.df[col + '_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+
+        self.x = self.timestamps
+
+        for column in self.organic_columns:
+            self.y.append(LineData(self.df[column + '_percentages'], column))
+
+    def inorganic_content(self):
+        for col in self.non_organic_columns:
+            self.df[col + '_percentages'] = self.df[col] / self.df['Non_Organic_Count'] * 100
+            self.df[col + '_percentages'] = self.df[col + '_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+
+        self.x = self.timestamps
+
+        for column in self.non_organic_columns:
+            self.y.append(LineData(self.df[column + '_percentages'], column))
+
+    def organic_classification_content(self):
+        self.df['C1_C4_percentages'] = self.df['C1_C4_Count'] / self.df['Organic_Count'] * 100
+        self.df['C5_C13_percentages'] = self.df['C5_C13_Count'] / self.df['Organic_Count'] * 100
+        self.df['C14_C40_percentages'] = self.df['C14_C40_Count'] / self.df['Organic_Count'] * 100
+        self.df['C40p_percentages'] = self.df['C40p_Count'] / self.df['Organic_Count'] * 100
+
+        # 确保在C1_C4_Count为0的情况下避免除以零错误
+        self.df['C1_C4_percentages'] = self.df['C1_C4_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+        self.df['C5_C13_percentages'] = self.df['C5_C13_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+        self.df['C14_C40_percentages'] = self.df['C14_C40_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+        self.df['C40p_percentages'] = self.df['C40p_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+
+        self.x = self.timestamps
+
+        self.y.append(LineData(self.df["C1_C4_percentages"], "C1-C4"))
+        self.y.append(LineData(self.df["C5_C13_percentages"], "C5-C13"))
+        self.y.append(LineData(self.df["C14_C40_percentages"], "C14-C40"))
+        self.y.append(LineData(self.df["C40p_percentages"], "C40+"))
