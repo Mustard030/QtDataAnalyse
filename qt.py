@@ -119,35 +119,104 @@ class TabPage(QWidget):
         self.sc.axes.clear()  # 清除旧的图表
 
         data = TableData(file_path)
-        if organic_type == '有机物' and count_type == '含量':
-            data.organic_content()
-            for line in data.y:
-                self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
 
-            # 设置图表标题和坐标轴标签
-            self.sc.axes.set_title('各有机物含量', fontproperties=self.font)
-            self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
-            self.sc.axes.set_ylabel('含量', fontproperties=self.font)
+        if count_type == '含量':
+            if organic_type == '有机物':
+                data.organic_content()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('各有机物含量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
-        elif organic_type == '无机物' and count_type == '含量':
-            data.inorganic_content()
-            for line in data.y:
-                self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+            elif organic_type == '无机物':
+                data.inorganic_content()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('各无机物含量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
-            # 设置图表标题和坐标轴标签
-            self.sc.axes.set_title('各无机物含量', fontproperties=self.font)
-            self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
-            self.sc.axes.set_ylabel('含量', fontproperties=self.font)
+            elif organic_type == '有机物分类':
+                data.organic_classification_content()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('有机物分类含量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
-        elif organic_type == '有机物分类' and count_type == '含量':
-            data.organic_classification_content()
-            for line in data.y:
-                self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+            elif organic_type == '最终有机产物':
+                names = data.organic_products()
+                for line in data.y:
+                    self.sc.axes.bar(data.x, line.data, 0.35)  # 绘制新的图表
+                    self.sc.axes.set_xticks(data.x)
+                    self.sc.axes.set_xticklabels(names, rotation=45, fontproperties=self.font)
+                    for i, v in enumerate(line.data):
+                        self.sc.axes.text(i, v, f"{v:.1f}%", ha='center', va='bottom', fontproperties=self.font)
+                self.sc.axes.set_title('最终有机产物含量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
+                self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
-            # 设置图表标题和坐标轴标签
-            self.sc.axes.set_title('有机物分类含量', fontproperties=self.font)
-            self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
-            self.sc.axes.set_ylabel('含量', fontproperties=self.font)
+            elif organic_type == '最终有机产物分类':
+                names = data.organic_classification_products()
+                for line in data.y:
+                    self.sc.axes.bar(data.x, line.data, 0.35)  # 绘制新的图表
+                    self.sc.axes.set_xticks(data.x)
+                    self.sc.axes.set_xticklabels(names, rotation=45, fontproperties=self.font)
+                    for i, v in enumerate(line.data):
+                        self.sc.axes.text(i, v, f"{v:.1f}%", ha='center', va='bottom', fontproperties=self.font)
+                self.sc.axes.set_title('最终有机产物分类含量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
+                self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
+
+        elif count_type == '数量':
+            if organic_type == '有机物':
+                data.organic_amount()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('各有机物数量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('数量', fontproperties=self.font)
+
+            elif organic_type == '无机物':
+                data.inorganic_amount()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('各无机物数量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('数量', fontproperties=self.font)
+
+            elif organic_type == '有机物分类':
+                data.organic_classification_amount()
+                for line in data.y:
+                    self.sc.axes.plot(data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('有机物分类数量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
+                self.sc.axes.set_ylabel('数量', fontproperties=self.font)
+
+            elif organic_type == '最终有机产物':
+                names = data.organic_products_amount()
+                for line in data.y:
+                    self.sc.axes.bar(data.x, line.data, 0.35)  # 绘制新的图表
+                    self.sc.axes.set_xticks(data.x)
+                    self.sc.axes.set_xticklabels(names, rotation=45, fontproperties=self.font)
+                    for i, v in enumerate(line.data):
+                        self.sc.axes.text(i, v, f"{v:.1f}", ha='center', va='bottom', fontproperties=self.font)
+                self.sc.axes.set_title('最终有机产物数量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
+                self.sc.axes.set_ylabel('数量', fontproperties=self.font)
+
+            elif organic_type == '最终有机产物分类':
+                names = data.organic_classification_products_amount()
+                for line in data.y:
+                    self.sc.axes.bar(data.x, line.data, 0.35)  # 绘制新的图表
+                    self.sc.axes.set_xticks(data.x)
+                    self.sc.axes.set_xticklabels(names, rotation=45, fontproperties=self.font)
+                    for i, v in enumerate(line.data):
+                        self.sc.axes.text(i, v, f"{v:.1f}", ha='center', va='bottom', fontproperties=self.font)
+                self.sc.axes.set_title('最终有机产物分类数量', fontproperties=self.font)
+                self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
+                self.sc.axes.set_ylabel('数量', fontproperties=self.font)
 
         # 添加图例，并使其浮动在右上角
         legend = self.sc.axes.legend()

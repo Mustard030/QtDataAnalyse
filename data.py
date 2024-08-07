@@ -1,6 +1,7 @@
 import re
 from typing import List
 
+import numpy as np
 import pandas as pd
 
 
@@ -127,3 +128,91 @@ class TableData:
         self.y.append(LineData(self.df["C5_C13_percentages"], "C5-C13"))
         self.y.append(LineData(self.df["C14_C40_percentages"], "C14-C40"))
         self.y.append(LineData(self.df["C40p_percentages"], "C40+"))
+
+    def organic_products(self):
+        last_timestamp_index = self.df['Timestep'].idxmax()
+        all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
+        values = []
+        names = []
+        for col in self.organic_columns:
+            if self.df.loc[last_timestamp_index, col] > 0:
+                names.append(col)
+                values.append(self.df.loc[last_timestamp_index, col] / all_last * 100)
+
+        ind = np.arange(len(names))
+        self.x = ind
+        self.y.append(LineData(values, "organic_products"))
+        return names
+
+    def organic_classification_products(self):
+        last_timestamp_index = self.df['Timestep'].idxmax()
+        C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
+        C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
+        C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
+        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
+        all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
+        # 创建一个字典来存储数据，便于绘图
+        data = {
+            'C1-C4': C1_C4_last / all_last * 100,
+            'C5-C13': C5_C13_last / all_last * 100,
+            'C14-C40': C14_C40_last / all_last * 100,
+            'C40+': C40p_last / all_last * 100
+        }
+        names = list(data.keys())
+        values = list(data.values())
+        ind = np.arange(len(names))
+        self.x = ind
+        self.y.append(LineData(values, "organic_classification_products"))
+        return names
+
+    def organic_amount(self):
+        self.x = self.timestamps
+        for column in self.organic_columns:
+            self.y.append(LineData(self.df[column], label=column))
+
+    def inorganic_amount(self):
+        self.x = self.timestamps
+        for column in self.non_organic_columns:
+            self.y.append(LineData(self.df[column], label=column))
+
+    def organic_classification_amount(self):
+        self.x = self.timestamps
+
+        self.y.append(LineData(self.df['C1_C4_Count'], label='C1-C4'))
+        self.y.append(LineData(self.df['C5_C13_Count'], label='C5-C13'))
+        self.y.append(LineData(self.df['C14_C40_Count'], label='C14-C40'))
+        self.y.append(LineData(self.df['C40p_Count'], label='C40+'))
+
+    def organic_products_amount(self):
+        last_timestamp_index = self.df['Timestep'].idxmax()
+        values = []
+        names = []
+        for col in self.organic_columns:
+            if self.df.loc[last_timestamp_index, col] > 0:
+                names.append(col)
+                values.append(self.df.loc[last_timestamp_index, col])
+
+        ind = np.arange(len(names))
+        self.x = ind
+        self.y.append(LineData(values, "organic_products_amount"))
+        return names
+
+    def organic_classification_products_amount(self):
+        last_timestamp_index = self.df['Timestep'].idxmax()
+        C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
+        C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
+        C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
+        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
+        all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
+
+        # 创建一个字典来存储数据，便于绘图
+        data = {'C1-C4': C1_C4_last,
+                'C5-C13': C5_C13_last,
+                'C14-C40': C14_C40_last,
+                'C40+': C40p_last}
+        names = list(data.keys())
+        values = list(data.values())
+        ind = np.arange(len(names))
+        self.x = ind
+        self.y.append(LineData(values, "organic_classification_products"))
+        return names
