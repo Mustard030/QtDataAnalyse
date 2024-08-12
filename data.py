@@ -90,6 +90,18 @@ class TableData:
         self.df['C14_C40_Count'] = self.df[self.C14_C40_columns].sum(axis=1)  # C14-C40总数
         self.df['C40p_Count'] = self.df[self.C40p_columns].sum(axis=1)  # C40+总数
 
+    def set_x_temp(self, initial_temp, heating_rate):
+        """
+        设置x轴温度
+        :param initial_temp: 初始温度
+        :param heating_rate: 升温速率
+        :return:
+        """
+        # 将初始温度转化为float类型
+        initial_temp = float(initial_temp)
+        heating_rate = float(heating_rate)
+        self.x = initial_temp + heating_rate * self.timestamps
+
     def organic_content(self):  # 有机物含量
         for col in self.organic_columns:
             self.df[col + '_percentages'] = self.df[col] / self.df['Organic_Count'] * 100
