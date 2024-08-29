@@ -1,3 +1,5 @@
+import os
+import subprocess
 import sys
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -6,12 +8,13 @@ from PyQt5.QtGui import QDoubleValidator
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QTabWidget, QWidget, QVBoxLayout, \
     QHBoxLayout, \
     QPushButton, \
-    QFileDialog, QComboBox, QSplitter, QLineEdit
+    QFileDialog, QComboBox, QSplitter, QLineEdit, QMessageBox
 from PyQt5.QtCore import Qt
 import matplotlib.font_manager as font_manager
 
 from data import TableData
 
+# pyinstaller -F -n 数据分析 --noconsole qt.py
 
 class MplCanvas(FigureCanvas):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
@@ -33,6 +36,7 @@ class TabPage(QWidget):
         self.count_type = None  # 当前选择的含量类型
         self.organic_type = None  # 当前选择的有机物类型
         self.data = None    # 当前选择的类型计算出的数据
+        self.export_df = None    # 限定data.df中数据列
 
         # 查找系统中的中文字体
         font_list = font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
@@ -85,7 +89,7 @@ class TabPage(QWidget):
 
         # 添加导出按钮
         export_button = QPushButton('导出Excel')
-        export_button.clicked.connect(self.export_data_equal_heat)
+        export_button.clicked.connect(self.export_data)
         left_layout.addWidget(export_button)
 
         left_widget = QWidget()
@@ -156,7 +160,7 @@ class TabPage(QWidget):
 
         # 添加导出按钮
         export_button = QPushButton('导出Excel')
-        export_button.clicked.connect(self.export_data_heating)
+        export_button.clicked.connect(self.export_data)
         left_layout.addWidget(export_button)
 
         left_widget = QWidget()
@@ -216,25 +220,25 @@ class TabPage(QWidget):
             self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
             if self.organic_type == '有机物':
-                self.data.organic_content()
+                self.export_df = self.data.organic_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各有机物含量', fontproperties=self.font)
 
             elif self.organic_type == '无机物':
-                self.data.inorganic_content()
+                self.export_df = self.data.inorganic_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各无机物含量', fontproperties=self.font)
 
             elif self.organic_type == '有机物分类':
-                self.data.organic_classification_content()
+                self.export_df = self.data.organic_classification_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('有机物分类含量', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物':
-                names = self.data.organic_products()
+                names, self.export_df = self.data.organic_products()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -245,7 +249,7 @@ class TabPage(QWidget):
                 self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物分类':
-                names = self.data.organic_classification_products()
+                names, self.export_df = self.data.organic_classification_products()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -260,25 +264,25 @@ class TabPage(QWidget):
             self.sc.axes.set_ylabel('数量', fontproperties=self.font)
 
             if self.organic_type == '有机物':
-                self.data.organic_amount()
+                self.export_df = self.data.organic_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各有机物数量', fontproperties=self.font)
 
             elif self.organic_type == '无机物':
-                self.data.inorganic_amount()
+                self.export_df = self.data.inorganic_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各无机物数量', fontproperties=self.font)
 
             elif self.organic_type == '有机物分类':
-                self.data.organic_classification_amount()
+                self.export_df = self.data.organic_classification_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('有机物分类数量', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物':
-                names = self.data.organic_products_amount()
+                names, self.export_df = self.data.organic_products_amount()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -289,7 +293,7 @@ class TabPage(QWidget):
                 self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物分类':
-                names = self.data.organic_classification_products_amount()
+                names, self.export_df = self.data.organic_classification_products_amount()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -318,33 +322,32 @@ class TabPage(QWidget):
 
         self.sc.axes.clear()  # 清除旧的图表
 
+        self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+
         if self.count_type == '含量':
             self.sc.axes.set_xlabel('温度(℃)', fontproperties=self.font)
             self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
             if self.organic_type == '有机物':
-                self.data.organic_content()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.organic_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各有机物含量', fontproperties=self.font)
 
             elif self.organic_type == '无机物':
-                self.data.inorganic_content()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.inorganic_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各无机物含量', fontproperties=self.font)
 
             elif self.organic_type == '有机物分类':
-                self.data.organic_classification_content()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.organic_classification_content()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('有机物分类含量', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物':
-                names = self.data.organic_products()
+                names, self.export_df = self.data.organic_products()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -355,7 +358,7 @@ class TabPage(QWidget):
                 self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物分类':
-                names = self.data.organic_classification_products()
+                names, self.export_df = self.data.organic_classification_products()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -370,28 +373,25 @@ class TabPage(QWidget):
             self.sc.axes.set_ylabel('数量', fontproperties=self.font)
 
             if self.organic_type == '有机物':
-                self.data.organic_amount()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.organic_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各有机物数量', fontproperties=self.font)
 
             elif self.organic_type == '无机物':
-                self.data.inorganic_amount()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.inorganic_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('各无机物数量', fontproperties=self.font)
 
             elif self.organic_type == '有机物分类':
-                self.data.organic_classification_amount()
-                self.data.set_x_temp(self.initial_temp_line_edit.text(), self.heating_rate_line_edit.text())
+                self.export_df = self.data.organic_classification_amount()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
                 self.sc.axes.set_title('有机物分类数量', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物':
-                names = self.data.organic_products_amount()
+                names, self.export_df = self.data.organic_products_amount()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -402,7 +402,7 @@ class TabPage(QWidget):
                 self.sc.axes.set_xlabel('最终有机产物', fontproperties=self.font)
 
             elif self.organic_type == '最终有机产物分类':
-                names = self.data.organic_classification_products_amount()
+                names, self.export_df = self.data.organic_classification_products_amount()
                 for line in self.data.y:
                     self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
                     self.sc.axes.set_xticks(self.data.x)
@@ -421,28 +421,34 @@ class TabPage(QWidget):
         self.sc.draw()  # 更新图表
 
     # 添加导出方法用于等温热解
-    def export_data_equal_heat(self):
+    def export_data(self):
         # 打开对话框让用户选择目录并输入文件名
         file_name, _ = QFileDialog.getSaveFileName(self, "保存Excel文件", "", "Excel Files (*.xlsx)")
         if file_name:
             # 将数据写入 Excel 文件
-            with pd.ExcelWriter(file_name) as writer:
+            with pd.ExcelWriter(file_name, engine='xlsxwriter') as writer:
                 # 写入数据到 Excel 文件
                 # 示例: df.to_excel(writer, sheet_name='Sheet1')
-                self.data.df.to_excel(writer, sheet_name='Sheet1')
+                self.export_df.to_excel(writer, sheet_name='Sheet1')
 
-    # 添加导出方法用于升温热解
-    def export_data_heating(self):
-        # 打开对话框让用户选择目录并输入文件名
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        file_name, _ = QFileDialog.getSaveFileName(self, "保存Excel文件", "", "Excel Files (*.xlsx)", options=options)
-        if file_name:
-            # 将数据写入 Excel 文件
-            with pd.ExcelWriter(file_name) as writer:
-                # 写入数据到 Excel 文件
-                # 示例: df.to_excel(writer, sheet_name='Sheet1')
-                self.data.df.to_excel(writer, sheet_name='Sheet1')
+            # 弹出对话框提示导出成功
+            msg_box = QMessageBox(self)
+            msg_box.setWindowTitle("导出成功")
+            msg_box.setText("文件已成功导出！")
+            msg_box.setStandardButtons(QMessageBox.Ok | QMessageBox.Open)
+            msg_box.setDefaultButton(QMessageBox.Ok)
+
+            # 连接按钮点击事件
+            msg_box.button(QMessageBox.Open).clicked.connect(lambda: self.open_file(file_name))
+            msg_box.exec_()
+
+    def open_file(self, file_name):
+        # 打开文件
+        if os.name == 'nt':  # Windows
+            os.startfile(file_name)
+        else:
+            opener = "open" if sys.platform == "darwin" else "xdg-open"
+            subprocess.call([opener, file_name])
 
     # 定义点击事件处理函数
     def on_pick(self, event):

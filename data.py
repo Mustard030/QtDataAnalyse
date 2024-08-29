@@ -45,6 +45,7 @@ class TableData:
         self.x: List[str | int] = list()
         self.y: List[LineData] = list()
         self.df = read_file(file_path)
+        self.index_col = "Timestep"
 
         self.ignore_columns = ['Timestep', 'No_Moles', 'No_Specs']
         self.timestamps = self.df['Timestep']
@@ -101,6 +102,8 @@ class TableData:
         initial_temp = float(initial_temp)
         heating_rate = float(heating_rate)
         self.x = initial_temp + heating_rate * self.timestamps
+        self.df['Temperature'] = self.x
+        self.index_col = 'Temperature'
 
     def organic_content(self):  # 有机物含量
         for col in self.organic_columns:
@@ -109,8 +112,14 @@ class TableData:
 
         self.x = self.timestamps
 
+        return_col = [self.index_col]
+
         for column in self.organic_columns:
-            self.y.append(LineData(self.df[column + '_percentages'], column))
+            col_name = column + '_percentages'
+            self.y.append(LineData(self.df[col_name], column))
+            return_col.append(col_name)
+
+        return self.df[return_col]
 
     def inorganic_content(self):
         for col in self.non_organic_columns:
@@ -118,9 +127,14 @@ class TableData:
             self.df[col + '_percentages'] = self.df[col + '_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
 
         self.x = self.timestamps
+        return_col = [self.index_col]
 
         for column in self.non_organic_columns:
-            self.y.append(LineData(self.df[column + '_percentages'], column))
+            col_name = column + '_percentages'
+            self.y.append(LineData(self.df[col_name], column))
+            return_col.append(col_name)
+
+        return self.df[return_col]
 
     def organic_classification_content(self):
         self.df['C1_C4_percentages'] = self.df['C1_C4_Count'] / self.df['Organic_Count'] * 100
@@ -141,8 +155,11 @@ class TableData:
         self.y.append(LineData(self.df["C14_C40_percentages"], "C14-C40"))
         self.y.append(LineData(self.df["C40p_percentages"], "C40+"))
 
+        return self.df[
+            [self.index_col, "C1_C4_percentages", "C5_C13_percentages", "C14_C40_percentages", "C40p_percentages"]]
+
     def organic_products(self):
-        last_timestamp_index = self.df['Timestep'].idxmax()
+        last_timestamp_index = self.df[self.index_col].idxmax()
         all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
         values = []
         names = []
@@ -154,10 +171,14 @@ class TableData:
         ind = np.arange(len(names))
         self.x = ind
         self.y.append(LineData(values, "organic_products"))
-        return names
+
+        output_dict = dict()
+        output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
+        output_dict.update(dict(zip(names, values)))
+        return names, pd.DataFrame(output_dict, index=[0])
 
     def organic_classification_products(self):
-        last_timestamp_index = self.df['Timestep'].idxmax()
+        last_timestamp_index = self.df[self.index_col].idxmax()
         C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
@@ -175,17 +196,23 @@ class TableData:
         ind = np.arange(len(names))
         self.x = ind
         self.y.append(LineData(values, "organic_classification_products"))
-        return names
+        output_dict = dict()
+        output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
+        output_dict.update(data)
+        return names, pd.DataFrame(output_dict, index=[0])
 
     def organic_amount(self):
         self.x = self.timestamps
         for column in self.organic_columns:
             self.y.append(LineData(self.df[column], label=column))
 
+        return self.df[[self.index_col] + self.organic_columns]
+
     def inorganic_amount(self):
         self.x = self.timestamps
         for column in self.non_organic_columns:
             self.y.append(LineData(self.df[column], label=column))
+        return self.df[[self.index_col] + self.non_organic_columns]
 
     def organic_classification_amount(self):
         self.x = self.timestamps
@@ -195,8 +222,10 @@ class TableData:
         self.y.append(LineData(self.df['C14_C40_Count'], label='C14-C40'))
         self.y.append(LineData(self.df['C40p_Count'], label='C40+'))
 
+        return self.df[[self.index_col, 'C1_C4_Count', 'C5_C13_Count', 'C14_C40_Count', 'C40p_Count']]
+
     def organic_products_amount(self):
-        last_timestamp_index = self.df['Timestep'].idxmax()
+        last_timestamp_index = self.df[self.index_col].idxmax()
         values = []
         names = []
         for col in self.organic_columns:
@@ -207,10 +236,13 @@ class TableData:
         ind = np.arange(len(names))
         self.x = ind
         self.y.append(LineData(values, "organic_products_amount"))
-        return names
+        output_dict = dict()
+        output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
+        output_dict.update(dict(zip(names, values)))
+        return names, pd.DataFrame(output_dict, index=[0])
 
     def organic_classification_products_amount(self):
-        last_timestamp_index = self.df['Timestep'].idxmax()
+        last_timestamp_index = self.df[self.index_col].idxmax()
         C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
@@ -227,4 +259,8 @@ class TableData:
         ind = np.arange(len(names))
         self.x = ind
         self.y.append(LineData(values, "organic_classification_products"))
-        return names
+
+        output_dict = dict()
+        output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
+        output_dict.update(data)
+        return names, pd.DataFrame(output_dict, index=[0])
