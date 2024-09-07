@@ -110,7 +110,7 @@ class TableData:
             self.df[col + '_percentages'] = self.df[col] / self.df['Organic_Count'] * 100
             self.df[col + '_percentages'] = self.df[col + '_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
 
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
 
         return_col = [self.index_col]
 
@@ -126,7 +126,7 @@ class TableData:
             self.df[col + '_percentages'] = self.df[col] / self.df['Non_Organic_Count'] * 100
             self.df[col + '_percentages'] = self.df[col + '_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
 
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
         return_col = [self.index_col]
 
         for column in self.non_organic_columns:
@@ -148,7 +148,7 @@ class TableData:
         self.df['C14_C40_percentages'] = self.df['C14_C40_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
         self.df['C40p_percentages'] = self.df['C40p_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
 
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
 
         self.y.append(LineData(self.df["C1_C4_percentages"], "C1-C4"))
         self.y.append(LineData(self.df["C5_C13_percentages"], "C5-C13"))
@@ -202,20 +202,20 @@ class TableData:
         return names, pd.DataFrame(output_dict, index=[0])
 
     def organic_amount(self):
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
         for column in self.organic_columns:
             self.y.append(LineData(self.df[column], label=column))
 
         return self.df[[self.index_col] + self.organic_columns]
 
     def inorganic_amount(self):
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
         for column in self.non_organic_columns:
             self.y.append(LineData(self.df[column], label=column))
         return self.df[[self.index_col] + self.non_organic_columns]
 
     def organic_classification_amount(self):
-        self.x = self.timestamps
+        self.x = self.df[self.index_col]
 
         self.y.append(LineData(self.df['C1_C4_Count'], label='C1-C4'))
         self.y.append(LineData(self.df['C5_C13_Count'], label='C5-C13'))

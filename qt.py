@@ -87,6 +87,11 @@ class TabPage(QWidget):
         self.combo_box_count.currentIndexChanged.connect(self.update_plot_equal_heat)
         left_layout.addWidget(self.combo_box_count)
 
+        # 添加刷新按钮
+        refresh_button = QPushButton('刷新')
+        refresh_button.clicked.connect(self.update_plot_equal_heat)
+        left_layout.addWidget(refresh_button)
+
         # 添加导出按钮
         export_button = QPushButton('导出Excel')
         export_button.clicked.connect(self.export_data)
@@ -157,6 +162,11 @@ class TabPage(QWidget):
         self.combo_box_count.addItem("数量")
         self.combo_box_count.currentIndexChanged.connect(self.update_plot_heating)
         left_layout.addWidget(self.combo_box_count)
+
+        # 添加刷新按钮
+        refresh_button = QPushButton('刷新')
+        refresh_button.clicked.connect(self.update_plot_heating)
+        left_layout.addWidget(refresh_button)
 
         # 添加导出按钮
         export_button = QPushButton('导出Excel')
