@@ -47,7 +47,7 @@ class TableData:
         self.df = read_file(file_path)
         self.index_col = "Timestep"
 
-        self.ignore_columns = ['Timestep', 'No_Moles', 'No_Specs']
+        self.ignore_columns = ['Timestep', 'No_Specs']
         self.timestamps = self.df['Timestep']
 
         self.organic_columns = []
@@ -264,3 +264,12 @@ class TableData:
         output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
         output_dict.update(data)
         return names, pd.DataFrame(output_dict, index=[0])
+
+    def moles_num(self):
+        self.x = self.df[self.index_col]
+
+        return_col = [self.index_col]
+        self.y.append(LineData(self.df['No_Moles'], 'No_Moles'))
+        return_col.append('No_Moles')
+
+        return self.df[return_col]

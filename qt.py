@@ -78,6 +78,7 @@ class TabPage(QWidget):
         self.combo_box_type.addItem("有机物分类")
         self.combo_box_type.addItem("最终有机产物")
         self.combo_box_type.addItem("最终有机产物分类")
+        self.combo_box_type.addItem("总分子个数")
         self.combo_box_type.currentIndexChanged.connect(self.update_plot_equal_heat)
         left_layout.addWidget(self.combo_box_type)
 
@@ -154,6 +155,7 @@ class TabPage(QWidget):
         self.combo_box_type.addItem("有机物分类")
         self.combo_box_type.addItem("最终有机产物")
         self.combo_box_type.addItem("最终有机产物分类")
+        self.combo_box_type.addItem("总分子个数")
         self.combo_box_type.currentIndexChanged.connect(self.update_plot_heating)
         left_layout.addWidget(self.combo_box_type)
 
@@ -269,6 +271,12 @@ class TabPage(QWidget):
                 self.sc.axes.set_title('最终有机产物分类含量', fontproperties=self.font)
                 self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
 
+            elif self.organic_type == '总分子个数':
+                self.export_df = self.data.moles_num()
+                for line in self.data.y:
+                    self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('总分子个数', fontproperties=self.font)
+
         elif self.count_type == '数量':
             self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
             self.sc.axes.set_ylabel('数量', fontproperties=self.font)
@@ -312,6 +320,12 @@ class TabPage(QWidget):
                         self.sc.axes.text(i, v, f"{v:.1f}", ha='center', va='bottom', fontproperties=self.font)
                 self.sc.axes.set_title('最终有机产物分类数量', fontproperties=self.font)
                 self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
+
+            elif self.organic_type == '总分子个数':
+                self.export_df = self.data.moles_num()
+                for line in self.data.y:
+                    self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('总分子个数', fontproperties=self.font)
 
         # 添加图例，并使其浮动在右上角
         legend = self.sc.axes.legend(loc='center left', bbox_to_anchor=(1, 0.5))
@@ -378,6 +392,12 @@ class TabPage(QWidget):
                 self.sc.axes.set_title('最终有机产物分类含量', fontproperties=self.font)
                 self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
 
+            elif self.organic_type == '总分子个数':
+                self.export_df = self.data.moles_num()
+                for line in self.data.y:
+                    self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('总分子个数', fontproperties=self.font)
+
         elif self.count_type == '数量':
             self.sc.axes.set_xlabel('温度(℃)', fontproperties=self.font)
             self.sc.axes.set_ylabel('数量', fontproperties=self.font)
@@ -421,6 +441,12 @@ class TabPage(QWidget):
                         self.sc.axes.text(i, v, f"{v:.1f}", ha='center', va='bottom', fontproperties=self.font)
                 self.sc.axes.set_title('最终有机产物分类数量', fontproperties=self.font)
                 self.sc.axes.set_xlabel('最终有机产物分类', fontproperties=self.font)
+
+            elif self.organic_type == '总分子个数':
+                self.export_df = self.data.moles_num()
+                for line in self.data.y:
+                    self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
+                self.sc.axes.set_title('总分子个数', fontproperties=self.font)
 
         # 添加图例，并使其浮动在右上角
         legend = self.sc.axes.legend(loc='center left', bbox_to_anchor=(1, 0.5))
