@@ -31,12 +31,14 @@ class TabPage(QWidget):
         self.file_line_edit = QLineEdit()
         self.combo_box_count = QComboBox()
         self.combo_box_type = QComboBox()
+        self.footstep_line_edit = QLineEdit()  # 步长输入框
         self.sc = None
         self.file_path = None  # 当前选择的文件路径
         self.count_type = None  # 当前选择的含量类型
         self.organic_type = None  # 当前选择的有机物类型
         self.data = None    # 当前选择的类型计算出的数据
         self.export_df = None    # 限定data.df中数据列
+        self.footstep = None
 
         # 查找系统中的中文字体
         font_list = font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
@@ -71,6 +73,16 @@ class TabPage(QWidget):
         self.file_line_edit.setFixedHeight(24)  # 设置文本框的固定高度
         file_input_layout.addWidget(self.file_line_edit)
         left_layout.addLayout(file_input_layout)
+
+        # 添加步长输入框
+        footstep_layout = QHBoxLayout()
+        footstep_label = QLabel("步长(fs):")
+        self.footstep_line_edit = QLineEdit()
+        self.footstep_line_edit.setText("1")
+        self.footstep_line_edit.setValidator(QDoubleValidator())  # 验证输入为数字
+        footstep_layout.addWidget(footstep_label)
+        footstep_layout.addWidget(self.footstep_line_edit)
+        left_layout.addLayout(footstep_layout)
 
         self.combo_box_type = QComboBox()
         self.combo_box_type.addItem("有机物")
@@ -130,6 +142,16 @@ class TabPage(QWidget):
         self.file_line_edit.setFixedHeight(24)  # 设置文本框的固定高度
         file_input_layout.addWidget(self.file_line_edit)
         left_layout.addLayout(file_input_layout)
+
+        # 添加步长输入框
+        footstep_layout = QHBoxLayout()
+        footstep_label = QLabel("步长(fs):")
+        self.footstep_line_edit = QLineEdit()
+        self.footstep_line_edit.setText("1")
+        self.footstep_line_edit.setValidator(QDoubleValidator())  # 验证输入为数字
+        footstep_layout.addWidget(footstep_label)
+        footstep_layout.addWidget(self.footstep_line_edit)
+        left_layout.addLayout(footstep_layout)
 
         # 添加初始温度输入框
         initial_temp_layout = QHBoxLayout()
@@ -214,12 +236,14 @@ class TabPage(QWidget):
         self.count_type = self.combo_box_count.currentText()
         # 获取当前选择的有机物类型
         self.organic_type = self.combo_box_type.currentText()
+        # 获取步长数值
+        self.footstep = float(self.footstep_line_edit.text())
 
         print("文件路径:", self.file_path, "含量类型:", self.count_type, "有机物类型:", self.organic_type)
 
         self.sc.axes.clear()  # 清除旧的图表
 
-        self.data = TableData(self.file_path)
+        self.data = TableData(self.file_path, self.footstep)
 
     # 更新图表
     def update_plot_equal_heat(self):
@@ -228,7 +252,7 @@ class TabPage(QWidget):
         self.sc.axes.clear()  # 清除旧的图表
 
         if self.count_type == '含量':
-            self.sc.axes.set_xlabel('时间', fontproperties=self.font)
+            self.sc.axes.set_xlabel('时间(ps)', fontproperties=self.font)
             self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
             if self.organic_type == '有机物':

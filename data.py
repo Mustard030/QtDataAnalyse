@@ -41,11 +41,14 @@ class LineData:
 
 
 class TableData:
-    def __init__(self, file_path):
+    def __init__(self, file_path, footstep=1):
         self.x: List[str | int] = list()
         self.y: List[LineData] = list()
         self.df = read_file(file_path)
         self.index_col = "Timestep"
+        self.footstep = footstep
+
+        self.df['Timestep'] = self.df['Timestep'] * footstep / 1000
 
         self.ignore_columns = ['Timestep', 'No_Specs']
         self.timestamps = self.df['Timestep']
