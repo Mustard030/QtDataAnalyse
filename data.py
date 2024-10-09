@@ -30,7 +30,6 @@ def read_file(data_source: str) -> pd.DataFrame:
     # 构造DataFrame
     df = pd.DataFrame(df_data)
     df = df.apply(pd.to_numeric).fillna(0)
-    df['Timestep'] = df['Timestep'] / 1000
     return df
 
 
