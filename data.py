@@ -49,14 +49,14 @@ class TableData:
 
         self.df['Timestep'] = self.df['Timestep'] * footstep / 1000
 
-        self.ignore_columns = ['Timestep', 'No_Specs']
+        self.ignore_columns = ['Timestep', 'No_Specs', 'No_Moles']
         self.timestamps = self.df['Timestep']
 
         self.organic_columns = []
         self.C1_C4_columns = []
         self.C5_C13_columns = []
         self.C14_C40_columns = []
-        self.C40p_columns = []
+        self.C40_C100_columns = []
         self.non_organic_columns = []
 
         for col in self.df.columns:
@@ -82,8 +82,8 @@ class TableData:
                 self.C5_C13_columns.append(col)
             elif int(res.group(1)) < 41:  # C14-C40
                 self.C14_C40_columns.append(col)
-            else:  # C40+
-                self.C40p_columns.append(col)
+            elif int(res.group(1)) < 101:  # C14-C100
+                self.C40_C100_columns.append(col)
 
         # 统计每个时间段的各有机物数量总和
         self.df['Organic_Count'] = self.df[self.organic_columns].sum(axis=1)  # 有机物总数
@@ -91,7 +91,7 @@ class TableData:
         self.df['C1_C4_Count'] = self.df[self.C1_C4_columns].sum(axis=1)  # C1-C4总数
         self.df['C5_C13_Count'] = self.df[self.C5_C13_columns].sum(axis=1)  # C5-C13总数
         self.df['C14_C40_Count'] = self.df[self.C14_C40_columns].sum(axis=1)  # C14-C40总数
-        self.df['C40p_Count'] = self.df[self.C40p_columns].sum(axis=1)  # C40+总数
+        self.df['C40_C100_Count'] = self.df[self.C40_C100_columns].sum(axis=1)  # C40+总数
 
     def set_x_temp(self, initial_temp, heating_rate):
         """
@@ -142,23 +142,23 @@ class TableData:
         self.df['C1_C4_percentages'] = self.df['C1_C4_Count'] / self.df['Organic_Count'] * 100
         self.df['C5_C13_percentages'] = self.df['C5_C13_Count'] / self.df['Organic_Count'] * 100
         self.df['C14_C40_percentages'] = self.df['C14_C40_Count'] / self.df['Organic_Count'] * 100
-        self.df['C40p_percentages'] = self.df['C40p_Count'] / self.df['Organic_Count'] * 100
+        self.df['C40_C100_percentages'] = self.df['C40_C100_Count'] / self.df['Organic_Count'] * 100
 
         # 确保在C1_C4_Count为0的情况下避免除以零错误
         self.df['C1_C4_percentages'] = self.df['C1_C4_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
         self.df['C5_C13_percentages'] = self.df['C5_C13_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
         self.df['C14_C40_percentages'] = self.df['C14_C40_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
-        self.df['C40p_percentages'] = self.df['C40p_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
+        self.df['C40_C100_percentages'] = self.df['C40_C100_percentages'].apply(lambda x: 0 if pd.isna(x) else x)
 
         self.x = self.df[self.index_col]
 
         self.y.append(LineData(self.df["C1_C4_percentages"], "C1-C4"))
         self.y.append(LineData(self.df["C5_C13_percentages"], "C5-C13"))
         self.y.append(LineData(self.df["C14_C40_percentages"], "C14-C40"))
-        self.y.append(LineData(self.df["C40p_percentages"], "C40+"))
+        self.y.append(LineData(self.df["C40_C100_percentages"], "C40-C100"))
 
         return self.df[
-            [self.index_col, "C1_C4_percentages", "C5_C13_percentages", "C14_C40_percentages", "C40p_percentages"]]
+            [self.index_col, "C1_C4_percentages", "C5_C13_percentages", "C14_C40_percentages", "C40_C100_percentages"]]
 
     def organic_products(self):
         last_timestamp_index = self.df[self.index_col].idxmax()
@@ -184,14 +184,14 @@ class TableData:
         C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
-        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
+        C40_C100_last = self.df.loc[last_timestamp_index, self.C40_C100_columns].sum()
         all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
         # 创建一个字典来存储数据，便于绘图
         data = {
             'C1-C4': C1_C4_last / all_last * 100,
             'C5-C13': C5_C13_last / all_last * 100,
             'C14-C40': C14_C40_last / all_last * 100,
-            'C40+': C40p_last / all_last * 100
+            'C40-C100': C40_C100_last / all_last * 100
         }
         names = list(data.keys())
         values = list(data.values())
@@ -222,9 +222,9 @@ class TableData:
         self.y.append(LineData(self.df['C1_C4_Count'], label='C1-C4'))
         self.y.append(LineData(self.df['C5_C13_Count'], label='C5-C13'))
         self.y.append(LineData(self.df['C14_C40_Count'], label='C14-C40'))
-        self.y.append(LineData(self.df['C40p_Count'], label='C40+'))
+        self.y.append(LineData(self.df['C40_C100_Count'], label='C40-C100'))
 
-        return self.df[[self.index_col, 'C1_C4_Count', 'C5_C13_Count', 'C14_C40_Count', 'C40p_Count']]
+        return self.df[[self.index_col, 'C1_C4_Count', 'C5_C13_Count', 'C14_C40_Count', 'C40_C100_Count']]
 
     def organic_products_amount(self):
         last_timestamp_index = self.df[self.index_col].idxmax()
@@ -248,14 +248,14 @@ class TableData:
         C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
-        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
+        C40_C100_last = self.df.loc[last_timestamp_index, self.C40_C100_columns].sum()
         all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
 
         # 创建一个字典来存储数据，便于绘图
         data = {'C1-C4': C1_C4_last,
                 'C5-C13': C5_C13_last,
                 'C14-C40': C14_C40_last,
-                'C40+': C40p_last}
+                'C40-C100': C40_C100_last}
         names = list(data.keys())
         values = list(data.values())
         ind = np.arange(len(names))

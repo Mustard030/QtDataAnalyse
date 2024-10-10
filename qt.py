@@ -252,7 +252,7 @@ class TabPage(QWidget):
         self.sc.axes.clear()  # 清除旧的图表
 
         if self.count_type == '含量':
-            self.sc.axes.set_xlabel('时间(ps)', fontproperties=self.font)
+            self.sc.axes.set_xlabel('皮秒(ps)', fontproperties=self.font)
             self.sc.axes.set_ylabel('含量(%)', fontproperties=self.font)
 
             if self.organic_type == '有机物':
