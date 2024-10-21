@@ -6,9 +6,7 @@ import pandas as pd
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas, NavigationToolbar2QT
 from PyQt5.QtGui import QDoubleValidator
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QTabWidget, QWidget, QVBoxLayout, \
-    QHBoxLayout, \
-    QPushButton, \
-    QFileDialog, QComboBox, QSplitter, QLineEdit, QMessageBox
+    QHBoxLayout, QPushButton, QFileDialog, QComboBox, QSplitter, QLineEdit, QMessageBox
 from PyQt5.QtCore import Qt
 import matplotlib.font_manager as font_manager
 
@@ -121,6 +119,7 @@ class TabPage(QWidget):
         self.combo_box_count = QComboBox()
         self.combo_box_count.addItem("含量")
         self.combo_box_count.addItem("数量")
+        self.combo_box_count.addItem("质量百分比")
         # self.combo_box_count.currentIndexChanged.connect(self.update_plot_equal_heat)
         left_layout.addWidget(self.combo_box_count)
 
@@ -200,7 +199,7 @@ class TabPage(QWidget):
 
         # 添加初始温度输入框
         initial_temp_layout = QHBoxLayout()
-        initial_temp_label = QLabel("初始温度 (℃):")
+        initial_temp_label = QLabel("初始温度 (K):")
         self.initial_temp_line_edit = QLineEdit()
         self.initial_temp_line_edit.setValidator(QDoubleValidator())  # 验证输入为数字
         initial_temp_layout.addWidget(initial_temp_label)
@@ -209,7 +208,7 @@ class TabPage(QWidget):
 
         # 添加升温速率输入框
         heating_rate_layout = QHBoxLayout()
-        heating_rate_label = QLabel("升温速率 (℃/ps):")
+        heating_rate_label = QLabel("升温速率 (K/ps):")
         self.heating_rate_line_edit = QLineEdit()
         self.heating_rate_line_edit.setValidator(QDoubleValidator())  # 验证输入为数字
         heating_rate_layout.addWidget(heating_rate_label)
@@ -228,6 +227,7 @@ class TabPage(QWidget):
         self.combo_box_count = QComboBox()
         self.combo_box_count.addItem("含量")
         self.combo_box_count.addItem("数量")
+        self.combo_box_count.addItem("质量百分比")
         left_layout.addWidget(self.combo_box_count)
 
         # 添加刷新按钮
@@ -262,14 +262,14 @@ class TabPage(QWidget):
         file_name, _ = QFileDialog.getOpenFileName(self, "选择文件", "", "所有文件 (*);;文本文件 (*.txt)")
         if file_name:
             self.file_line_edit.setText(file_name)
-            self.update_plot_equal_heat()  # 文件选择后立即更新图表
+            # self.update_plot_equal_heat()  # 文件选择后立即更新图表
 
         # 选择文件
     def open_filename_dialog_heating(self):
         file_name, _ = QFileDialog.getOpenFileName(self, "选择文件", "", "所有文件 (*);;文本文件 (*.txt)")
         if file_name:
             self.file_line_edit.setText(file_name)
-            self.update_plot_heating()  # 文件选择后立即更新图表
+            # self.update_plot_heating()  # 文件选择后立即更新图表
 
     # 更新数据
     def refresh_data(self):
@@ -374,6 +374,16 @@ class TabPage(QWidget):
                 self.export_df = self.data.moles_num()
                 for line in self.data.y:
                     self.sc.axes.plot(self.data.x, line.data, label=line.label)  # 绘制新的图表
+
+        elif self.count_type == '质量百分比':
+            if self.organic_type == '最终有机产物分类':
+                names, self.export_df = self.data.organic_classification_products_mass_percentage()
+                for line in self.data.y:
+                    self.sc.axes.bar(self.data.x, line.data, 0.35)  # 绘制新的图表
+                    self.sc.axes.set_xticks(self.data.x)
+                    self.sc.axes.set_xticklabels(names, rotation=45, fontproperties=self.font)
+                    for i, v in enumerate(line.data):
+                        self.sc.axes.text(i, v, f"{v:.1f}", ha='center', va='bottom', fontproperties=self.font)
 
         # 添加图例，并使其浮动在右上角
         legend = self.sc.axes.legend(loc='center left', bbox_to_anchor=(1, 0.5))

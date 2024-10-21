@@ -57,6 +57,7 @@ class TableData:
         self.C5_C13_columns = []
         self.C14_C40_columns = []
         self.C40_C100_columns = []
+        self.C40p_columns = []
         self.non_organic_columns = []
 
         for col in self.df.columns:
@@ -84,6 +85,9 @@ class TableData:
                 self.C14_C40_columns.append(col)
             elif int(res.group(1)) < 101:  # C14-C100
                 self.C40_C100_columns.append(col)
+                self.C40p_columns.append(col)
+            else:
+                self.C40p_columns.append(col)
 
         # 统计每个时间段的各有机物数量总和
         self.df['Organic_Count'] = self.df[self.organic_columns].sum(axis=1)  # 有机物总数
@@ -91,7 +95,8 @@ class TableData:
         self.df['C1_C4_Count'] = self.df[self.C1_C4_columns].sum(axis=1)  # C1-C4总数
         self.df['C5_C13_Count'] = self.df[self.C5_C13_columns].sum(axis=1)  # C5-C13总数
         self.df['C14_C40_Count'] = self.df[self.C14_C40_columns].sum(axis=1)  # C14-C40总数
-        self.df['C40_C100_Count'] = self.df[self.C40_C100_columns].sum(axis=1)  # C40+总数
+        self.df['C40_C100_Count'] = self.df[self.C40_C100_columns].sum(axis=1)  # C40-C100总数
+        self.df['C40p_Count'] = self.df[self.C40p_columns].sum(axis=1)  # C40+总数
 
     def set_x_temp(self, initial_temp, heating_rate):
         """
@@ -184,14 +189,16 @@ class TableData:
         C1_C4_last = self.df.loc[last_timestamp_index, self.C1_C4_columns].sum()
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
-        C40_C100_last = self.df.loc[last_timestamp_index, self.C40_C100_columns].sum()
+        # C40_C100_last = self.df.loc[last_timestamp_index, self.C40_C100_columns].sum()
+        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
         all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
         # 创建一个字典来存储数据，便于绘图
         data = {
             'C1-C4': C1_C4_last / all_last * 100,
             'C5-C13': C5_C13_last / all_last * 100,
             'C14-C40': C14_C40_last / all_last * 100,
-            'C40-C100': C40_C100_last / all_last * 100
+            # 'C40-C100': C40_C100_last / all_last * 100,
+            'C40+': C40p_last / all_last * 100
         }
         names = list(data.keys())
         values = list(data.values())
@@ -249,13 +256,17 @@ class TableData:
         C5_C13_last = self.df.loc[last_timestamp_index, self.C5_C13_columns].sum()
         C14_C40_last = self.df.loc[last_timestamp_index, self.C14_C40_columns].sum()
         C40_C100_last = self.df.loc[last_timestamp_index, self.C40_C100_columns].sum()
+        C40p_last = self.df.loc[last_timestamp_index, self.C40p_columns].sum()
         all_last = self.df.loc[last_timestamp_index, self.organic_columns].sum()
 
         # 创建一个字典来存储数据，便于绘图
-        data = {'C1-C4': C1_C4_last,
-                'C5-C13': C5_C13_last,
-                'C14-C40': C14_C40_last,
-                'C40-C100': C40_C100_last}
+        data = {
+            'C1-C4': C1_C4_last,
+            'C5-C13': C5_C13_last,
+            'C14-C40': C14_C40_last,
+            # 'C40-C100': C40_C100_last,
+            'C40+': C40p_last
+        }
         names = list(data.keys())
         values = list(data.values())
         ind = np.arange(len(names))
@@ -267,6 +278,51 @@ class TableData:
         output_dict.update(data)
         return names, pd.DataFrame(output_dict, index=[0])
 
+    # 最终有机产物质量百分比
+    def organic_classification_products_mass_percentage(self):
+        last_timestamp_index = self.df[self.index_col].idxmax()
+
+        C1_C4_weight = 0
+        C5_C13_weight = 0
+        C14_C40_weight = 0
+        C40p_weight = 0
+        all_weight = 0
+
+
+        for col in self.C1_C4_columns:
+            C1_C4_weight += self.df.loc[last_timestamp_index, col] * calculate_molecular_weight(col)
+
+        for col in self.C5_C13_columns:
+            C5_C13_weight += self.df.loc[last_timestamp_index, col] * calculate_molecular_weight(col)
+
+        for col in self.C14_C40_columns:
+            C14_C40_weight += self.df.loc[last_timestamp_index, col] * calculate_molecular_weight(col)
+
+        for col in self.C40p_columns:
+            C40p_weight += self.df.loc[last_timestamp_index, col] * calculate_molecular_weight(col)
+
+        all_weight = C1_C4_weight + C5_C13_weight + C14_C40_weight + C40p_weight
+
+        # 创建一个字典来存储数据，便于绘图
+        data = {
+            'C1-C4': C1_C4_weight / all_weight * 100,
+            'C5-C13': C5_C13_weight / all_weight * 100,
+            'C14-C40': C14_C40_weight / all_weight * 100,
+            'C40+': C40p_weight / all_weight * 100
+        }
+
+        names = list(data.keys())
+        values = list(data.values())
+        ind = np.arange(len(names))
+        self.x = ind
+        self.y.append(LineData(values, "organic_classification_products"))
+
+        output_dict = dict()
+        output_dict[self.index_col] = self.df.loc[last_timestamp_index, self.index_col]
+        output_dict.update(data)
+        return names, pd.DataFrame(output_dict, index=[0])
+
+
     def moles_num(self):
         self.x = self.df[self.index_col]
 
@@ -275,3 +331,26 @@ class TableData:
         return_col.append('No_Moles')
 
         return self.df[return_col]
+
+
+# 元素及其原子质量
+atomic_weights = {
+    'C': 12,
+    'H': 1,
+    'O': 16,
+    'N': 14,
+    'S': 32,
+    'P': 30
+}
+
+
+def calculate_molecular_weight(formula):
+    # 正则表达式匹配元素和数量
+    pattern = r'([A-Z][a-z]*)(\d*)'
+    total_weight = 0.0
+
+    for element, count in re.findall(pattern, formula):
+        count = int(count) if count else 1  # 如果没有数字，默认为1
+        total_weight += atomic_weights[element] * count
+
+    return total_weight
